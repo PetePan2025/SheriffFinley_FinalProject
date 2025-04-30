@@ -14,6 +14,7 @@
 
 from locationPackage.location import LocationDecrypter
 from moviePackage.movie import MovieDecrypter
+from groupimagePackage.groupimage import show_group_photo
 
 if __name__ == "__main__":
     encrypted_location_file = "EncryptedGroupHints Spring 2025.json"
@@ -34,3 +35,6 @@ if __name__ == "__main__":
     movie_decrypter = MovieDecrypter(movie_key)
     decrypted_movie = movie_decrypter.decrypt_movie_title(movie_file, team_name)
     print(f"Decrypted Movie Title: {decrypted_movie}")
+
+    show_group_photo()
+

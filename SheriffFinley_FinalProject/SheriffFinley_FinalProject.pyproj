@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="data\EncryptedGroupHints Spring 2025.json" />
+    <Content Include="data\Final Project 1.jpg" />
     <Content Include="data\TeamsAndEncryptedMessagesForDistribution.json" />
     <Content Include="data\UCEnglish.txt" />
   </ItemGroup>
